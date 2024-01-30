@@ -12,8 +12,9 @@ const db = mysql.createConnection({
 
 db.connect();
 
-app.get('/users', (req, res) => {
-    db.query('SELECT * FROM users', (err, result) => {
+app.get('/', (req, res) => {
+    const sql = 'SELECT * FROM users';
+    db.query(sql, (err, result) => {
         if (err) throw err;
         res.send(result);
     })
