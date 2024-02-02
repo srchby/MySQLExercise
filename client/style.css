@@ -1,0 +1,21 @@
+* {
+    text-align: center;
+    margin: auto;
+}
+
+main {
+    margin: 1rem;
+}
+
+table, thead, th {
+    padding: 1rem;
+}
+
+input {
+    text-align: left;
+    border-color: gray;
+    border-width: 1px;
+    border-radius: 0.75rem;
+    padding: 0.25rem;
+    height: 2rem;
+}
