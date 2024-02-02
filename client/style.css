@@ -17,5 +17,12 @@ input {
     border-width: 1px;
     border-radius: 0.75rem;
     padding: 0.25rem;
+    height: 25px;
+}
+
+button {
     height: 2rem;
+    border-radius: 0.5rem;
+    border: 1px gray solid;
+    background-color: white;
 }
