@@ -9,11 +9,13 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 //create
-app.post('/create', (req, res) => {})
+app.post('/create', (request, response) => {})
 
 //read
 app.get('/getAll', (request, response) => {
-    console.log('Test');
+    response.json({
+        success: true,
+    })
 })
 
 app.listen(process.env.PORT, () => console.log('app is running'));

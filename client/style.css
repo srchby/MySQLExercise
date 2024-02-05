@@ -1,14 +1,25 @@
+@font-face {
+    font-family: 'Fira Code';
+    src: url('../FiraCode-VariableFont_wght.ttf');
+}
+
 * {
     text-align: center;
     margin: auto;
     font-weight: lighter;
 }
 
+body {
+    font-family: 'Fira Code';
+}
+
 main {
     margin: 1rem;
 }
 
-table, thead, th {
+table,
+thead,
+th {
     padding: 1rem;
 }
 
@@ -26,4 +37,10 @@ button {
     border-radius: 0.5rem;
     border: 1px gray solid;
     background-color: white;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: gray;
+    border: 1px white solid;
 }
